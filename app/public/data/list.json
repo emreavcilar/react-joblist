@@ -1,0 +1,87 @@
+{
+  "version":"1.0",
+  "statusCode":200,
+  "result":{
+    "items":[
+      {
+        "jobId":"C71CD1954BA149BCAF42B25F775EA4FB",
+        "positionName":"Gerber Operatörü",
+        "companyName":"Testoğlu Lahmacun Pide Ve Kebap",
+        "durationDay":0,
+        "durationDayText":"Taze çıktı!",
+        "imageUrl":"https://dummyimage.com/120x120/7C0F83/fff.jpg&text=Testoğlu+Lahmacun",
+        "distance":"8,53 km yakınında",
+        "latitude":41.050968170166023,
+        "longitude":29.062856674194339,
+        "cityName":"İSTANBUL",
+        "townName":"Çengelköy Mahallesi"
+      },
+      {
+        "jobId":"C71CD1954BA149BCAF42B25F775EA4FK",
+        "positionName":"Front End Developer",
+        "companyName":"Şokella Yazılım",
+        "durationDay":0,
+        "durationDayText":"Taze çıktı!",
+        "imageUrl":"https://dummyimage.com/120x120/7C0F83/fff.jpg&text=Şokella+Yazılım",
+        "distance":"15,53 km yakınında",
+        "latitude":41.050968170166023,
+        "longitude":29.062856674194339,
+        "cityName":"İSTANBUL",
+        "townName":"4. Levent"
+      },
+      {
+        "jobId":"C71CD1954BA149BCAF42B25F775EA4FC",
+        "positionName":"Analist",
+        "companyName":"Kumpir Yazılım",
+        "durationDay":5,
+        "durationDayText":"Yetişirsen alırsın!",
+        "imageUrl":"https://dummyimage.com/120x120/7C0F83/fff.jpg&text=Kumpir+Yazılım",
+        "distance":"650,53 km yakınında",
+        "latitude":41.050968170166023,
+        "longitude":29.062856674194339,
+        "cityName":"ANKARA",
+        "townName":"Çinçin Mahallesi"
+      },
+      {
+        "jobId":"C71CD1954BA149BCAF42B25F775EA4FL",
+        "positionName":"Front end developer",
+        "companyName":"Kumpir Yazılım",
+        "durationDay":5,
+        "durationDayText":"Yetişirsen alırsın!",
+        "imageUrl":"https://dummyimage.com/120x120/7C0F83/fff.jpg&text=Kumpir+Yazılım",
+        "distance":"648,53 km yakınında",
+        "latitude":41.050968170166023,
+        "longitude":29.062856674194339,
+        "cityName":"ANKARA",
+        "townName":"Cebeci Mahallesi"
+      },
+      {
+        "jobId":"C71CD1954BA149BCAF42B25F775EA4FD",
+        "positionName":"Otobüs Şoförü",
+        "companyName":"Varamaz Turizm",
+        "durationDay":0,
+        "durationDayText":"Taze çıktı!",
+        "imageUrl":"https://dummyimage.com/120x120/7C0F83/fff.jpg&text=Varamaz+Turizm",
+        "distance":"630,23 km yakınında",
+        "latitude":41.050968170166023,
+        "longitude":29.062856674194339,
+        "cityName":"İZMİR",
+        "townName":"Bornova Mahallesi"
+      },
+      {
+        "jobId":"C71CD1954BA149BCAF42B25F775EA4FE",
+        "positionName":"Tente gerici",
+        "companyName":"Tento Tente",
+        "durationDay":0,
+        "durationDayText":"Taze çıktı!",
+        "imageUrl":"https://dummyimage.com/120x120/7C0F83/fff.jpg&text=Tento+Tente",
+        "distance":"430,1 km yakınında",
+        "latitude":41.050968170166023,
+        "longitude":29.062856674194339,
+        "cityName":"ESKİŞEHİR",
+        "townName":"Hede Hödö Mahallesi"
+      }
+    ],
+    "total":4
+  }
+}

@@ -1,0 +1,12 @@
+//@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('http://fonts.googleapis.com/css?family=Roboto|Open+Sans:400italic,700italic,400,700');
+
+@mixin open-sans{
+  font-family: "Open Sans",Arial, sans-serif;
+  font-weight: normal;
+}
+
+@mixin roboto{
+  font-family: 'Roboto', Arial, serif;
+  font-weight: normal;
+}

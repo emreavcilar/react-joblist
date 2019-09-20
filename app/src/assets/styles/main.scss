@@ -1,0 +1,68 @@
+@import "base/fonts";
+@import "abstracts/variables";
+@import 'vendors/normalize';
+@import 'pages/list';
+@import 'pages/detail';
+@import 'layout/responsive';
+
+body{
+  background-color: $white;
+  font-size: 1em;
+  @include roboto;
+}
+
+h1,h2 {
+  color: $darkBrown;
+  padding: 0  0 20px 10px;
+}
+
+p,span{
+  color: $black;
+}
+
+a{
+  color:$black;
+}
+
+a:visited{
+  span{
+    color: #666666;
+  }
+}
+
+.input-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .input-item{
+    justify-content: space-evenly;
+    padding: 0 5px;
+
+    label{
+      margin: 0 10px 0 0;
+      font-size: 1.5em;
+    }
+
+    select{
+      min-height: 30px;
+      padding: 11px;
+    }
+
+    input[type="text"]{
+      min-height: 30px;
+      color: $black;
+      padding: 5px;
+    }
+  }
+
+  .button-item {
+    button{
+      background-color:$purple ;
+      border: none;
+      border-radius: 20px;
+      color: $white;
+      padding: 8px 16px;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+// TODO Örnek
+//@include keyframes(slide-down) {
+//  0% { opacity: 1; }
+//  90% { opacity: 0; }
+//}
+//
+//.element {
+//  @include animation('slide-down 5s 3');
+//}
+
+@-webkit-keyframes anim-1 {
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(1em, 0, 0);
+    transform: translate3d(1em, 0, 0);
+  }
+  51% {
+    opacity: 0;
+    -webkit-transform: translate3d(-1em, -40%, 0);
+    transform: translate3d(-1em, -40%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -40%, 0);
+    transform: translate3d(0, -40%, 0);
+  }
+}
+
+@keyframes anim-1 {
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(1em, 0, 0);
+    transform: translate3d(1em, 0, 0);
+  }
+  51% {
+    opacity: 0;
+    -webkit-transform: translate3d(-1em, -40%, 0);
+    transform: translate3d(-1em, -40%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -40%, 0);
+    transform: translate3d(0, -40%, 0);
+  }
+}

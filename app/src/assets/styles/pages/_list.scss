@@ -1,0 +1,77 @@
+.job-list-root {
+  padding: 50px 50px 0 50px;
+
+  .input-container{
+    margin: 0 0 20px 0;
+
+    
+  }
+
+  .job-list-container {
+
+    .title-block {
+      h1{
+        margin: 0;
+      }
+    }
+
+    .job-list-wrapper{
+
+      .job-list-item{
+        cursor:pointer;
+        border: 2px solid $black;
+        background-color: $white;
+        padding: 10px;
+        display: flex;
+        align-self: auto;
+        transition-duration: 300ms;
+        margin: 0 0 10px 0;
+        align-items: center;
+        position: relative;
+
+        .image-block {
+
+        }
+
+        .info-block {
+          padding: 0 0 0 10px;
+
+          p{
+            font-size: 1.2em;
+            span{
+              color: $gray1;
+            }
+          }
+        }
+
+        .duration-block {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+        }
+
+        .distance-block {
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+        }
+
+
+       &:hover {
+         background-color: $lightBlue;
+         -webkit-transition: background-color 300ms linear;
+         -ms-transition: background-color 300ms linear;
+         transition: background-color 300ms linear;
+       }
+      }
+    }
+
+    .no-result-block {
+      padding: 10px;
+      border: 1px solid $black;
+
+      p{
+      }
+    }
+  }
+}

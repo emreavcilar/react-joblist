@@ -1,0 +1,29 @@
+{
+  "version":"1.0",
+  "statusCode":200,
+  "result":{
+    "jobId":"C71CD1954BA149BCAF42B25F775EA4FE",
+    "positionName":"Tente Gerici",
+    "companyName":"Tento Tente",
+    "durationDay":0,
+    "durationDayText":"Taze Çıktı!",
+    "imageUrl":"https://dummyimage.com/200x200/7C0F83/fff.jpg&text=Tento+Tente",
+    "countryCode":"TR",
+    "countryName":"Turkey",
+    "cityName":"ESKİŞEHİR",
+    "townName":"Hede Hödö Mahallesi",
+    "address":"Höyt sok. Salihbey apt. No:5",
+    "postalCode":34768,
+    "hasLatitude":true,
+    "hasLongitude":true,
+    "latitude":41.0266502,
+    "longitude":29.1157803,
+    "description":"Aradıklarımız: 5 senelik tente germe deneyimi.",
+    "status":1,
+    "contactPhone":{
+      "countryCallingCode":"+90",
+      "areaCode":"879",
+      "number":"9797979"
+    }
+  }
+}

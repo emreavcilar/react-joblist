@@ -1,0 +1,1 @@
+export const DATA = typeof window!=="undefined"? "/data":"http://localhost:3000/data/";

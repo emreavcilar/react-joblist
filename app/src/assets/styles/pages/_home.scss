@@ -1,0 +1,116 @@
+.content-root{
+  padding: 40px 0;
+
+  .content-container{
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+
+    .breadcrumbs-container {
+      margin: 0 0 15px 0;
+      padding: 0 10px;
+
+      .breadcrumbs-block{
+        background: $darkBrown;
+        border-radius: 5px;
+        padding: 0 0 0 10px;
+
+        .breadcrumb-item {
+          margin-bottom: 0;
+          line-height: 2.5;
+          display: inline-block;
+          text-transform: uppercase;
+
+          &.active{
+            color: #818a91;
+          }
+
+          &:before{
+            display: inline-block;
+            padding-right: 5px;
+            padding-left: 5px;
+            color: #818a91;
+            content: "/";
+          }
+
+          &:first-child{
+            &:before{
+              content: "";
+            }
+          }
+        }
+      }
+    }
+
+    .products-container {
+      display: flex;
+      flex-wrap: wrap;
+      resize: horizontal;
+
+      .product-item-block {
+        flex: 0 0 20%;
+        padding: 10px;
+        box-sizing:border-box;
+        -webkit-box-sizing: border-box;
+      }
+
+      .product-item{
+        background-color: $darkBrown;
+        width: 190px;
+        height: 240px;
+        border-radius: 5px;
+        padding: 10px 0;
+
+        .img-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+
+          opacity: 0;
+
+          img {
+            width: 100%;
+            //border-radius: 50%;
+            transition: opacity 20s;
+            -webkit-transition: opacity 20s; /* Safari */
+          }
+        }
+
+        .text-item {
+          text-align: center;
+          padding: 10px 0 5px 0;
+          span{
+          }
+        }
+
+        .link-item{
+          text-align: center;
+          a{
+            font-size: 0.8em;
+          }
+        }
+      }
+
+      @keyframes fadeAnim {
+        100% { opacity: 1; }
+      }
+      .product-item .img-item{
+        animation: fadeAnim .5s forwards;
+      }
+
+      @for $i from 1 to 20 {
+        .product-item-block:nth-child(#{$i}) {
+          .product-item{
+            .img-item{
+              animation-delay: $i * 0.05s;
+              //animation-delay: $i * 0.001s;
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+export const GET_LIST_DATA = "GET_LIST_DATA";
+export const GET_DETAIL_DATA = "GET_DETAIL_DATA";
+export const RESET_DETAIL_DATA = "RESET_DETAIL_DATA";

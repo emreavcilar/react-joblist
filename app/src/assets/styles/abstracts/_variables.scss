@@ -1,0 +1,44 @@
+$darkBrown:#252529;
+$white:#ffffff;
+$black:#000000;
+$lightBlue:#D3D3FF;
+$gray1:#666666;
+$purple:#7C0F83;
+$font-stack:'Helvetica,sans-serif';
+
+$hh: 120px;
+
+.safe-area {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $white;
+  background-image: -webkit-linear-gradient(45deg,
+          transparent 25%,
+          transparent 50%,
+          transparent 75%,
+          transparent)
+}
+
+.track-vertical {
+  bottom: 2px;
+  position: absolute;
+  right: 1px;
+  top: 0;
+  width: 6px;
+  background-color: $black;
+  &.phone {
+    right: 0;
+  }
+}
